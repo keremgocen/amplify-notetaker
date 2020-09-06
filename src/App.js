@@ -60,6 +60,8 @@ function App() {
     const updated = result.data.updateNote;
     const index = notes.findIndex((x) => x.id === updated.id);
     setNotes([...notes.slice(0, index), updated, ...notes.slice(index + 1)]);
+    setNote("");
+    setStateId(null);
   };
 
   const handleAddNote = async (event) => {
@@ -76,6 +78,7 @@ function App() {
       setNotes([newNote, ...notes]);
     }
     setNote("");
+    setStateId(null);
   };
 
   return (
