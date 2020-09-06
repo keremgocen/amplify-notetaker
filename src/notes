@@ -1,0 +1,36 @@
+➜  amplify-notetaker git:(master) ✗ amplify api gql-compile
+
+
+The following types do not have '@auth' enabled. Consider using @auth with @model
+         - Note
+Learn more about @auth here: https://docs.amplify.aws/cli/graphql-transformer/directives#auth
+
+
+GraphQL schema compiled successfully.
+
+Edit your schema at /home/kerem/serverless-react/amplify-notetaker/amplify/backend/api/amplifynotetaker/schema.graphql or place .graphql files in a directory at /home/kerem/serverless-react/amplify-notetaker/amplify/backend/api/amplifynotetaker/schema
+➜  amplify-notetaker git:(master) ✗   amplify push            
+✔ Successfully pulled backend environment dev from the cloud.
+
+Current Environment: dev
+
+| Category | Resource name            | Operation | Provider plugin   |
+| -------- | ------------------------ | --------- | ----------------- |
+| Auth     | amplifynotetakerbf714714 | Create    | awscloudformation |
+| Api      | amplifynotetaker         | Create    | awscloudformation |
+? Are you sure you want to continue? Yes
+
+The following types do not have '@auth' enabled. Consider using @auth with @model
+         - Note
+Learn more about @auth here: https://docs.amplify.aws/cli/graphql-transformer/directives#auth
+
+
+GraphQL schema compiled successfully.
+
+Edit your schema at /home/kerem/serverless-react/amplify-notetaker/amplify/backend/api/amplifynotetaker/schema.graphql or place .graphql files in a directory at /home/kerem/serverless-react/amplify-notetaker/amplify/backend/api/amplifynotetaker/schema
+⠋ Uploading Files...⠋ Uploading Files...⠋ Uploading Files...⠋ Uploading Files...⠋ Uploading Files...⠋ Uploading Files...⠋ Uploading Files...⠋ Uploading Files...⠋ Uploading Files...⠋ Uploading Files...⠋ Uploading Files...⠋ Uploading Fi? Do you want to generate code for your newly created GraphQL API Yes
+? Choose the code generation language target javascript
+? Enter the file name pattern of graphql queries, mutations and subscriptions src/graphql/**/*.js
+? Do you want to generate/update all possible GraphQL operations - queries, mutations and subscriptions Yes
+? Enter maximum statement depth [increase from default if your schema is deeply nested] 2
+⠇ Updating resources in the cloud. This may take a few minutes...
